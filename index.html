@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+
+<html>
+
+    <head>
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Inter">
+        <link rel="stylesheet" href="./style.css">
+    </head>
+
+    <body>
+
+        <div id="div-left" class="main-divs">
+
+            <div id="title">
+                
+                <h1 id="title-red">Grátis</h1>
+                <h1 id="title-white">Tudo sobre investimentos</h1>
+
+            </div> 
+            
+            <p id="paragraph">
+                As informações que você precisa sendo enviadas por e-mail toda semana. Vai perder?
+            </p>
+
+        </div>
+
+
+        <div id="div-right" class="main-divs">
+
+            <form id="form" method="post">
+
+                <br>
+                <label for="name" class="labels">Nome</label><br>
+                <input type="text" id="name" name="name" class="input-fields" required><br>
+
+                <label for="sobrenome" class="labels">Sobrenome</label><br>
+                <input type="text" id="sobrenome" name="sobrenome" class="input-fields" required><br>
+
+                <label for="email" class="labels">E-Mail</label><br>
+                <input type="email" id="email" name="email" class="input-fields" required><br>
+
+                <input type="checkbox" id="receive-info" name="receive-info" value="yes" required>
+                <label for="receive-info" class="labels" id="receive-info-label"> Gostaria de receber mais informações por e-mail</label><br>
+                
+                <button type="submit" id="submit-button">Enviar</button>                                         
+
+
+            </form>
+
+
+        </div>
+
+    </body>
+
+    <script type="text/javascript">       
+
+
+        form.addEventListener("submit", () => {
+            
+            let form = document.getElementById("form");
+
+            const name = form.elements["name"].value
+            const lastName = form.elements["sobrenome"].value
+            const email = form.elements["email"].value
+
+            window.alert(`Enviado!
+            Nome: ${name}
+            Sobrenome: ${lastName}
+            E-mail: ${email}
+            `)
+
+        })
+
+    </script>
+
+
+</html>
