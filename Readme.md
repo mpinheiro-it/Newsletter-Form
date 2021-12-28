@@ -6,6 +6,12 @@ Eis os passos que segui abaixo:
 
 1. Baixei uma ideia de design para formulario gratuita da internet no formato .fig.
 
-2. Fiz algumas alterações no web app do Figma.
+2. Fiz algumas alterações usando o Figma.
 
-3. Criei o layout manualmente usando HTML e CSS puros.
+3. Reproduzi o layout manualmente usando HTML e CSS puros.
+
+4. Criei um servidor web rodando localmente e servindo estes arquivos com Node.JS.
+
+5. Instalei e criei um DB MySQL chamado users que recebe os dados do formulário e add numa tabela users. 
+
+6. Após a inserção, o usuário é redirecionado para uma página de agradecimento. 
