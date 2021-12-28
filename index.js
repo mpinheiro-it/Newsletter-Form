@@ -28,6 +28,10 @@ app.listen(8080, () => {
 
 });
 
+
+
+
+
 app.get("/users", (req, res) => {
 
      connection.query(
@@ -53,8 +57,8 @@ app.post("/users",  (req, res) => {
         }
     )
 
-    res.send("<h1>Muito obrigado! :)</h1>");
-    //res.end("__dirname + '/public/index.html'");
+    
+    res.sendFile(__dirname + "/public/response.html");
 
 })
 

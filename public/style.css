@@ -102,7 +102,7 @@ html, body {
 
 
 
-#submit-button {
+.submit-button {
 
     width: 12.5vw;
     height: 6vh;  
@@ -118,4 +118,42 @@ html, body {
 
 }
 
+/* CODE BELOW ONLY APPLIES TO RESPONSE.HTML */
 
+/* thank you message box */
+
+.thank-you-box {    
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+
+    background-color: #0F0934;
+    color: #FFFFFF;
+    font-size: 24px;
+    border-radius: 5px;
+
+    
+    height: 100px;
+    width: 300px;
+
+}
+
+#thank-you, #smiley-face {
+
+    margin: 0 auto;
+    padding: 3px;
+
+}
+
+#smiley-face {
+
+    font-size: 26px;
+
+}
+
+#another-address {
+    margin-top: 25px;
+    color: #2c2e2e;
+    font-size: 20px;
+
+}
