@@ -9,23 +9,33 @@
 
     <body>
 
-        <div id="div-left" class="main-divs">
+        <section id="section-one" class="main-sections">
 
             <div id="title">
                 
-                <h1 id="title-red">Grátis</h1>
-                <h1 id="title-white">Tudo sobre investimentos</h1>
+                <div id="title-section">
 
-            </div> 
+                    <h1 id="title-red">Grátis</h1>
+                    <h1 id="title-white">Tudo sobre investimentos</h1>
+
+
+                    <p id="paragraph">
+                        As informações que você precisa sendo enviadas por e-mail toda semana. Vai perder?
+                    </p>
+
+                </div>
+                
+            </div>            
             
-            <p id="paragraph">
+
+        </section>
+
+
+        <section id="section-two" class="main-sections">
+           
+            <p id="small-screen-paragraph">
                 As informações que você precisa sendo enviadas por e-mail toda semana. Vai perder?
             </p>
-
-        </div>
-
-
-        <div id="div-right" class="main-divs">
 
             <form id="form" action="./users" method="post">
 
@@ -39,8 +49,12 @@
                 <label for="email" class="labels">E-Mail</label><br>
                 <input type="email" id="email" name="email" class="input-fields" required><br>
 
-                <input type="checkbox" id="receive-info" name="receive-info" value="yes" required>
-                <label for="receive-info" class="labels" id="receive-info-label"> Gostaria de receber mais informações por e-mail</label><br>
+                <div id="receive-info-div">
+
+                    <input type="checkbox" id="receive-info" name="receive-info" value="yes" required>
+                    <label for="receive-info" class="labels" id="receive-info-label"> Gostaria de receber mais informações por e-mail</label><br>
+                    
+                </div>
                 
                 <button type="submit" id="submit-button" class="submit-button">Enviar</button>                                         
 
@@ -48,7 +62,7 @@
             </form>
 
 
-        </div>
+        </section>
 
     </body>
 

@@ -6,7 +6,7 @@ html, body {
   }
 
 
-#div-left {    
+#section-one {    
     background: #0F0934;
     width: 50vw;
     margin: 0px;
@@ -24,17 +24,27 @@ html, body {
 }
 
 #title {
-    width: 50%;
-    height: 40%;    
+    
+    display: flex;    
+    justify-content: center;    
+    align-items: center;
+    width: 100%;
+    height: 50%;    
     font-weight: 500;
-    font-size: 36px;
+    font-size: 36px;       
     
 }
 
+#title-section {
+    width: 60%;   
+    
+
+}
 
 #title-red {
     color: #FF5631;    
     margin-bottom: 0px;
+        
 }
 
 #title-white {
@@ -43,7 +53,7 @@ html, body {
 }
 
 #paragraph {    
-    width: 50%;
+    width: 90%;
     font-family: Inter;
     font-style: normal;
     font-weight: normal;
@@ -55,7 +65,9 @@ html, body {
 
 }
 
-#div-right {
+
+
+#section-two {
     margin-left: 50%;
     height: 100vh;
     width: 50%;
@@ -66,8 +78,13 @@ html, body {
     justify-content: center;
 }
 
+#small-screen-paragraph {
+    display: none;
+}
+
 .input-fields {
     width: 25vw;
+    min-width: 300px;
     height: 5vh;    
     background: #FFFFFF;
     border: 1px solid #ADAABF;
@@ -79,10 +96,13 @@ html, body {
 }
 
 .labels {
+   width: 25vw;
+   min-width: 300px;
    font-weight: 500;
    font-size: 13px;
    color: #322B5F;
    line-height: 21px;
+   
 
 }
 
@@ -156,4 +176,77 @@ html, body {
     color: #2c2e2e;
     font-size: 20px;
 
+}
+
+
+
+@media (max-width: 1200px) {
+
+
+    #title {
+        font-size: 26px;
+    }          
+    
+    #form {
+        display: flex;
+        flex-direction: column;
+        align-items: center;            
+    }
+
+    #receive-info-div {
+        display: inline-block;    
+        
+    }
+
+    .submit-button {
+        min-width: 150px;
+    }
+   
+    
+}
+
+@media (max-width: 800px) {
+
+    #section-one {
+        width: 100vw;
+        height: 20%;
+        position: fixed;
+        
+    }
+
+    #title {
+        font-size: 18px;        
+        position: fixed;        
+        width: 100vw;
+        height: 20%;
+        text-align: center;        
+        
+    }   
+
+    #paragraph {
+        display: none;
+    }  
+
+    #small-screen-paragraph{
+        display: block;
+        width: 80%;
+        font-family: Inter;        
+        font-size: 18px;
+        line-height: 150%;    
+        color: #050505;    
+        opacity: 0.7;    
+        margin-top: 0px;       
+    }
+
+    #section-two {
+        position: relative;
+        top: 20%;
+        margin-left: 0;
+        width: 100vw;
+        height: 80%;
+        
+    }
+
+
+    
 }
