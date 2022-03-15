@@ -1,17 +1,19 @@
-## Cadastro de Usuário em Newsletter ##
+## Responsive Newsletter Form ##
 
-Baseei este projeto pessoal nesta Masterclass da Rocketseat - https://www.youtube.com/watch?v=EhnXaybirdA&t=1912s.
+Steps followed:
 
-Eis os passos que segui abaixo:
+Front-End
 
-1. Baixei uma ideia de design para formulario gratuita da internet no formato .fig.
+1. Downloaded a free form design idea from the internet in .fig format.
 
-2. Fiz algumas alterações usando o Figma.
+2. I made some changes to it using Figma.
 
-3. Reproduzi o layout manualmente usando HTML e CSS puros.
+3. Reproduced the layout manually using HTML and CSS.
 
-4. Criei um servidor web rodando localmente e servindo estes arquivos com Node.JS.
 
-5. Instalei e criei um DB MySQL chamado users que recebe os dados do formulário e add numa tabela users. 
+Back-End
+4. Created a web server running locally and serving these files with Node.JS.
 
-6. Após a inserção, o usuário é redirecionado para uma página de agradecimento. 
+5. Installed and created a MySQL DB called "users" that receives the form data and add it to a "users" table.
+
+6. After submitting the data, the user is redirected to a thank you page.
