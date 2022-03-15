@@ -1,5 +1,7 @@
 ## Responsive Newsletter Form ##
 
+<img src="https://github.com/mpinheiro-it/Newsletter-Form/blob/main/snapshot.png" width="800px">
+
 Steps followed:
 
 **Front-End**
