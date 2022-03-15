@@ -2,7 +2,7 @@
 
 Steps followed:
 
-Front-End
+**Front-End**
 
 1. Downloaded a free form design idea from the internet in .fig format.
 
@@ -11,9 +11,10 @@ Front-End
 3. Reproduced the layout manually using HTML and CSS.
 
 
-Back-End
-4. Created a web server running locally and serving these files with Node.JS.
+**Back-End**
 
-5. Installed and created a MySQL DB called "users" that receives the form data and add it to a "users" table.
+1. Created a web server running locally and serving these files with Node.JS.
 
-6. After submitting the data, the user is redirected to a thank you page.
+2. Installed and created a MySQL DB called "users" that receives the form data and add it to a "users" table.
+
+3. After submitting the data, the user is redirected to a thank you page.
